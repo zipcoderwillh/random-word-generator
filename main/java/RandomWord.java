@@ -15,6 +15,7 @@ public class RandomWord {
 
         this.fullWord = firstLetter;
 
+        // NOTE: need to remove seed 47 after unit testing.
         Random rand = new Random(47);
 
         for(int i = 0; i < 5; i++) {
